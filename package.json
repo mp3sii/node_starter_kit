@@ -5,7 +5,7 @@
   "main": "./build/src/server/server.js",
   "scripts": {
     "start": "node ./build/src/server.js",
-    "test": "mocha --reporter progress \"build/test/**.test.js\"",
+    "test": "mocha --reporter progress \"build/**/*.spec.js\"",
     "check": "gts check",
     "clean": "gts clean",
     "compile": "tsc -p .",
