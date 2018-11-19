@@ -30,6 +30,7 @@ class App {
 
   private mongoSetup(): void {
     const mongoUrl = `${process.env.MONGO_DBURL}/${process.env.MONGO_DBNAME}`;
+
     mongoose.connect(
         mongoUrl, {useNewUrlParser: true}, (err: mongodb.MongoError) => {
           if (err) {
