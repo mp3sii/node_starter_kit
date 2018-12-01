@@ -2,7 +2,7 @@
   "name": "node_starter_kit",
   "version": "1.0.0",
   "description": "Personal Starter Kit",
-  "main": "./build/src/server/server.js",
+  "main": "./build/server/server.js",
   "scripts": {
     "start": "node ./build/src/server.js",
     "test": "mocha --reporter progress \"build/**/*.spec.js\"",
