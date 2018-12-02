@@ -4,7 +4,7 @@
   "description": "Personal Starter Kit",
   "main": "./build/server/server.js",
   "scripts": {
-    "start": "node ./build/src/server.js",
+    "start": "node ./build/server.js",
     "test": "mocha --reporter progress \"build/**/*.spec.js\"",
     "check": "gts check",
     "clean": "gts clean",
